@@ -1,0 +1,48 @@
+:root{
+	font-family: georgia;
+	background-color:#E3DAC9;
+}
+
+.imagen{
+	margin:10px 20px;
+	width: 350px;
+	height: 350px;
+	background: url("../img/7941_2.jpg");
+	border-radius: 50%;
+
+	box-shadow:0px 5px 15px black,
+				inset 0px 2px 20px black;
+
+	-webkit-animation:6s mundoGira infinite linear;
+}
+
+/*
+	Con la propiedad linear evitamos el efeecto de ralentización al inal que tiene por defecto
+*/
+
+
+@-webkit-keyframes mundoGira{
+	0%{
+		background-position: 0px 0px;
+	}
+	100%{
+		background-position: -1284px 0px;
+	}
+}
+
+
+
+
+p{
+	font-size: 6em;
+	color:RoyalBlue;
+	text-shadow: 2px 0px 0px black,
+				-2px 2px 0px red;
+}
+
+p.texto{
+	text-shadow: 1px 1px 0px DodgerBlue,
+				-2px 2px 0px DodgerBlue,
+				-3px 3px 0px DodgerBlue,
+				-4px 4px 0px DodgerBLue;
+}
